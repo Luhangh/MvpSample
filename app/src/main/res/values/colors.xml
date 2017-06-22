@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00ACEE</color>
+    <color name="colorPrimaryDark">#00ACEE</color>
+
+    <color name="colorAccent">#60000000</color>
+    <color name="theme1colors">#20979B</color>
+    <color name="themecolors">#00ACEE</color>
+    <color name="pbarcolors">#ff005092</color>
+    <!--login-->
+    <color name="logincolorPrimary">#d1d3d4</color>
+    <color name="logincolorPrimaryDark">#d1d3d4</color>
+    <!--主题颜色-->
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+    <!-- 红色 -->
+    <color name="red">#FF0000</color>
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <color name="xy_black">#292421</color>
+    <!-- 黄色 -->
+    <color name="yellow">#FFFF00</color>
+    <!-- 蓝色 -->
+    <color name="blue">#4F94CD</color>
+    <color name="blue1">#00ACEE</color>
+    <color name="blue2">#4494F7</color>
+    <!-- 绿色 -->
+    <color name="green">#00FF00</color>
+    <!-- 褐色 -->
+    <color name="orange">#EE7600</color>
+    <color name="orange_text">#FC790D</color>
+    <color name="bind_orange">#FF9F22</color>
+    <color name="beige">#f5f5dc</color>
+    <!-- 米色 -->
+    <color name="backcolor">#f0f0f0</color>
+    <!-- 灰色 背景色 -->
+    <color name="gray">#808a87</color>
+    <color name="gray3">#b2b2b2</color>
+    <color name="gra_color">#d1d3d4</color>
+    <color name="page_bg">#F0F0F0</color>
+    <color name="bg">#E2E2E2</color>
+
+    <color name="btn_bg">#218868</color>
+    <!--验证码-->
+    <color name="img_yzm">#B5D2E0</color>
+
+    <!-- 浅红色 -->
+    <color name="light_red">#FF3600</color>
+    <!-- 蓝绿色-菜单/标题背景色 -->
+    <color name="blue_green">#119FA9</color>
+
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="color_bg_layout">#EDEDED</color>
+    <color name="color_more_line_gray">#D8D0C8</color>
+    <color name="drop_down">#ff005092</color>
+</resources>

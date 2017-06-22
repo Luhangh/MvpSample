@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">mvpDemo</string>
+    <string name="fileprovider_authority">com.mvpdemo.luch.fileProvider</string>
+    <!-- Strings related to login -->
+    <string name="prompt_user" translatable="false">用户名</string>
+    <string name="prompt_password" translatable="false">请输入密码</string>
+    <string name="auth_code" translatable="false">请输入验证码</string>
+    <string name="action_sign_in" translatable="false">登录</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <!--提示-->
+    <string name="error_invalid_email">验证码输入错误</string>
+    <string name="error_invalid_password">密码长度至少6位</string>
+    <string name="error_password">密码长度至少6位</string>
+    <string name="error_incorrect_user">请输入用户名</string>
+    <string name="error_field_required">请输入验证码</string>
+    <string name="search_mp">请输入</string>
+    <string name="check_pwd">记住密码</string>
+    <!--user-->
+    <string name="back">返回</string>
+    <string name="confitm">确定</string>
+    <string name="network_err">网络异常,请稍后再试</string>
+    <string name="net_error">网络错误</string>
+    <string name="ioint_out">连接超时</string>
+    <string name="load_all">已加载全部</string>
+    <string name="refresh">刷新</string>
+    <string name="load_more">加载更多</string>
+</resources>
