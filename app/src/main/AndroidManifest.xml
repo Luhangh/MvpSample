@@ -18,14 +18,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".mvp.ui.MainActivity"
-                  android:screenOrientation="portrait">
+        <activity android:name=".mvp.ui.GuildAictivity"
+        >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".mvp.ui.MainActivity"
+                  android:screenOrientation="portrait"/>
         <!-- 7.0权限 -->
         <provider
             android:name="android.support.v4.content.FileProvider"

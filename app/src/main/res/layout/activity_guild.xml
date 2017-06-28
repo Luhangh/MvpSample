@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center_horizontal"
+                tools:context=".mvp.ui.MainActivity">
+
+
+    <ImageView android:id="@+id/img_guide"
+               android:layout_width="300dp"
+               android:layout_height="match_parent"
+               android:src="@mipmap/ic_launcher_round"/>
+
+    <Button android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"
+            android:text="进入"/>
+</RelativeLayout>
