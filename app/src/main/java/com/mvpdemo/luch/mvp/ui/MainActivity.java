@@ -59,7 +59,7 @@ public class MainActivity extends BaseActivity<PhotoContract.Presenter> implemen
 
     @Override
     protected void initInjector() {
-
+        L.v("111111");
     }
 
     @Override
