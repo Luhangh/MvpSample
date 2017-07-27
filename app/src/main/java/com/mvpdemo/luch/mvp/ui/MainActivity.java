@@ -3,8 +3,10 @@ package com.mvpdemo.luch.mvp.ui;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
 import android.widget.TextView;
 
+import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.mvpdemo.luch.R;
 import com.mvpdemo.luch.adapter.PhotoAdapter;
 import com.mvpdemo.luch.base.BaseActivity;
@@ -47,6 +49,12 @@ public class MainActivity extends BaseActivity<PhotoContract.Presenter> implemen
         mRecList.setLayoutManager(linearLayoutManager);
         mPhotoAdapter = new PhotoAdapter();
         mRecList.setAdapter(mPhotoAdapter);
+        mPhotoAdapter.setOnItemClickListener(new BaseQuickAdapter.OnItemClickListener() {
+            @Override
+            public void onItemClick(BaseQuickAdapter adapter, View view, int position) {
+
+            }
+        });
     }
 
     @Override
